@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SortSceneSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16e6823fe72" ></w:Config>
+	<e:Image source="bg_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Label id="sceneLabel" text="将垃圾桶按照小到大的顺序排列(点击继续)" textAlign="center" verticalAlign="middle" anchorOffsetY="0" left="0" right="0" height="166.36" size="60" fontFamily="Microsoft YaHei" bottom="0"/>
+</e:Skin>

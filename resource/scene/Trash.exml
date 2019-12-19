@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TrashSkin" width="160" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e6de282d2" ></w:Config>
+	<e:Image id="image" source="trash_png" x="16"/>
+	<e:Label id="idLabel" text="0" x="71.5" y="128"/>
+</e:Skin>
