@@ -14,9 +14,9 @@
 		"eui.VSlider": "resource/eui_skins/VSliderSkin.exml",
 		"eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml",
 		"SortScene": "resource/scene/SortScene.exml",
-		"Trash": "resource/scene/Trash.exml",
-		"SortScene1": "resource/scene/SortScene1.exml",
-		"Dialog": "resource/scene/Dialog.exml"
+		"Dialog": "resource/scene/Dialog.exml",
+		"Card": "resource/scene/Card.exml",
+		"Explain": "resource/scene/Explain.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
@@ -33,10 +33,10 @@
 		"resource/eui_skins/ToggleSwitchSkin.exml",
 		"resource/eui_skins/VScrollBarSkin.exml",
 		"resource/eui_skins/VSliderSkin.exml",
+		"resource/scene/Card.exml",
 		"resource/scene/Dialog.exml",
-		"resource/scene/SortScene.exml",
-		"resource/scene/SortScene1.exml",
-		"resource/scene/Trash.exml"
+		"resource/scene/Explain.exml",
+		"resource/scene/SortScene.exml"
 	],
 	"path": "resource/default.thm.json"
 }

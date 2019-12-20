@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="DialogSkin" width="1738" height="882" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+<e:Skin class="DialogSkin" width="1840" height="256" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
 	<w:Config id="16ee8b5271d" ></w:Config>
-	<e:Group width="1728" height="874" x="4" y="2" anchorOffsetX="0" anchorOffsetY="0">
-		<e:Image source="head_png" x="0" y="0" scaleX="1" scaleY="1"/>
-		<e:Group width="1726" height="258" x="5" y="607" anchorOffsetX="0" anchorOffsetY="0">
-			<e:Image source="dialog_png" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
-			<e:Label id="scriptLabel" text="欢迎来的我的试炼" x="43" anchorOffsetX="0" width="1640" anchorOffsetY="0" height="156" size="50" fontFamily="SimSun" scaleX="1" scaleY="1" top="20"/>
-			<e:Button id="nextBtn" label="点击继续" x="1583" scaleX="1" scaleY="1" bottom="20"/>
-		</e:Group>
-	</e:Group>
+	<e:Image scaleX="1" scaleY="1" left="0" bottom="0" source="dialog_png" right="0" top="0"/>
+	<e:Label id="label" text="欢迎来的我的试炼" anchorOffsetX="0" width="1010" anchorOffsetY="0" height="80" size="28" fontFamily="KaiTi" scaleX="1" scaleY="1" verticalAlign="middle" textAlign="left" x="230" y="120" textColor="0x1eaeff"/>
+	<e:Image id="button" source="btn_png" x="1594" y="120"/>
+	<e:Image id="image" width="256" height="256" x="1070" fillMode="scale" source="" scale9Grid="285,62,5,8" verticalCenter="-2"/>
 </e:Skin>

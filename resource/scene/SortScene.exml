@@ -2,5 +2,11 @@
 <e:Skin class="SortSceneSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
 	<w:Config id="16e6823fe72" ></w:Config>
 	<e:Image source="bg_png" left="0" right="0" top="0" bottom="0"/>
-	<e:Label id="sceneLabel" text="将垃圾桶按照小到大的顺序排列(点击继续)" textAlign="center" verticalAlign="middle" anchorOffsetY="0" left="0" right="0" height="166.36" size="60" fontFamily="Microsoft YaHei" bottom="0"/>
+	<ns1:Card id="card0" width="112" height="136" x="499.24" y="403"/>
+	<ns1:Card id="card1" width="112" height="136" x="715.03" y="403" />
+	<ns1:Card id="card2" width="112" height="136" x="931.27" y="403" />
+	<ns1:Card id="card3" width="112" height="136" x="1147.24" y="403" />
+	<ns1:Card id="card4" width="112" height="136" x="1362.88" y="403" />
+	<ns1:Dialog id="dialog" width="1840" height="256" x="40" y="816"/>
+	<ns1:Explain id="explain" width="834" height="556" horizontalCenter="0" verticalCenter="0" visible="false"/>
 </e:Skin>

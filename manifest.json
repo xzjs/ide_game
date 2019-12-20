@@ -15,9 +15,9 @@
 		"bin-debug/Main.js",
 		"bin-debug/Platform.js",
 		"bin-debug/ThemeAdapter.js",
+		"bin-debug/Scene/Card.js",
 		"bin-debug/Scene/Dialog.js",
-		"bin-debug/Scene/SortScene.js",
-		"bin-debug/Scene/SortScene1.js",
-		"bin-debug/Scene/Trash.js"
+		"bin-debug/Scene/Explain.js",
+		"bin-debug/Scene/SortScene.js"
 	]
 }

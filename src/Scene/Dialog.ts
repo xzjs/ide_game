@@ -1,12 +1,15 @@
 class Dialog extends eui.Component implements eui.UIComponent {
-	public scripts: string[];
-	public index: number;
-	public nextBtn: eui.Button;
-	public scriptLabel: eui.Label;
+	public label: eui.Label;
+	public image: eui.Image;
+	public button: eui.Image;
+	public images = {
+		'code_png': [291, 68],
+		'block_png': [364, 256]
+	}
+
 
 	public constructor() {
 		super();
-		this.index = 0;
 	}
 
 	protected partAdded(partName: string, instance: any): void {
@@ -16,19 +19,16 @@ class Dialog extends eui.Component implements eui.UIComponent {
 
 	protected childrenCreated(): void {
 		super.childrenCreated();
-		this.nextBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.nextBtnHandler, this);
 	}
 
-	public setScripts(_scripts: string[]) {
-		this.scripts = _scripts;
-		this.scriptLabel.text = _scripts[0];
-	}
-
-	public nextBtnHandler(event: egret.TouchEvent): void {
-		if (this.index++ < this.scripts.length - 1) {
-			this.scriptLabel.text = this.scripts[this.index];
+	public setText(text: string, src: string = '') {
+		this.label.text = text;
+		if (src) {
+			this.image.source = src;
+			this.image.width = this.images[src][0];
+			this.image.height = this.images[src][1];
 		} else {
-			this.visible = false;
+			this.image.source = '';
 		}
 	}
 }

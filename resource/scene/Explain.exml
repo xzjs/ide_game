@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExplainSkin" width="834" height="556" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16f22844d08" ></w:Config>
+	<e:Image source="explain_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="compare_png" x="131.67" y="103"/>
+	<e:Image source="swap_png" x="145.67" y="294.67"/>
+	<e:Label id="label1" text="Label" x="417" y="143" textColor="0x000000"/>
+	<e:Label id="label2" text="Label" x="417" y="339.67" textColor="0x000000"/>
+</e:Skin>

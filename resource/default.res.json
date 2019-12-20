@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,trash_png,bg_png,head_png,dialog_bg_png,dialog_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,Card_png,bg_png,dialog_png,a_png,card_png,blueCard_png,btn_png,block_png,code_png,explain_png,redbtn_png,compare_png,swap_png",
 			"name": "preload"
 		}
 	],
@@ -127,9 +127,9 @@
 			"name": "egret_icon_png"
 		},
 		{
-			"name": "trash_png",
+			"name": "Card_png",
 			"type": "image",
-			"url": "assets/trash.png"
+			"url": "assets/Card.png"
 		},
 		{
 			"name": "bg_png",
@@ -137,19 +137,59 @@
 			"url": "assets/bg.png"
 		},
 		{
-			"name": "head_png",
-			"type": "image",
-			"url": "assets/head.png"
-		},
-		{
-			"name": "dialog_bg_png",
-			"type": "image",
-			"url": "assets/dialog_bg.png"
-		},
-		{
 			"name": "dialog_png",
 			"type": "image",
 			"url": "assets/dialog.png"
+		},
+		{
+			"name": "a_png",
+			"type": "image",
+			"url": "assets/a.png"
+		},
+		{
+			"name": "card_png",
+			"type": "image",
+			"url": "assets/card.png"
+		},
+		{
+			"name": "blueCard_png",
+			"type": "image",
+			"url": "assets/blueCard.png"
+		},
+		{
+			"name": "btn_png",
+			"type": "image",
+			"url": "assets/btn.png"
+		},
+		{
+			"name": "block_png",
+			"type": "image",
+			"url": "assets/block.png"
+		},
+		{
+			"name": "code_png",
+			"type": "image",
+			"url": "assets/code.png"
+		},
+		{
+			"name": "explain_png",
+			"type": "image",
+			"url": "assets/explain.png"
+		},
+		{
+			"name": "redbtn_png",
+			"type": "image",
+			"url": "assets/redbtn.png"
+		},
+		{
+			"name": "compare_png",
+			"type": "image",
+			"url": "assets/compare.png"
+		},
+		{
+			"name": "swap_png",
+			"type": "image",
+			"url": "assets/swap.png"
 		}
 	]
 }
